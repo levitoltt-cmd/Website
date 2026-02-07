@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>TEMPTEATION WEB PAGE</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <h1 class="logo">TEMPTEATION</h1>
+
+    <ul class="nav-links">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#products">PRODUCTS</a></li>
+        <li><a href="#about">ABOUT US</a></li>
+        <li class="ctn"><a href="#contact">CONTACTS</a></li>
+    </ul>
+
+    <img src="./images/menu-btn.png" class="menu-btn">
+</nav>
+
+<!-- Header -->
+<header id="home">
+    <div class="header-content">
+        <h2>WELCOME TO</h2>
+        <div class="line"></div>
+        <h1>TEMP TEA TION</h1>
+        <a href="#about" class="ctn">LEARN MORE</a>
+    </div>
+</header>
+
+<!-- Events -->
+<section class="events">
+    <div class="title">
+        <h1>UPCOMING EVENTS</h1>
+        <div class="line"></div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <img src="./images/img11.jpg">
+            <h4>TO BE UPDATED</h4>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <a href="#" class="ctn">LEARN MORE</a>
+        </div>
+
+        <div class="col">
+            <img src="./images/img22.jpg">
+            <h4>TO BE UPDATED</h4>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <a href="#" class="ctn">LEARN MORE</a>
+        </div>
+    </div>
+</section>
+
+<!-- About -->
+<section class="explore" id="about">
+    <div class="explore-content">
+        <h1>ABOUT US</h1>
+        <div class="line"></div>
+        <p>We offer freshly brewed and authentic milktea from Taiwan.</p>
+        <a href="#" class="ctn">LEARN MORE</a>
+    </div>
+</section>
+
+<!-- Products -->
+<section class="tours" id="products">
+    <div class="row">
+        <div class="col content-col">
+            <h1>PRODUCTS</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#" class="ctn">LEARN MORE</a>
+        </div>
+
+        <div class="col image-col">
+            <div class="image-gallery">
+                <img src="./images/img3.jpg">
+                <img src="./images/img4.jpg">
+                <img src="./images/img5.jpg">
+                <img src="./images/img6.jpg">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<section class="footer" id="contact">
+    <p>Corner Bonifacio St., Koronadal, Philippines | 0998 158 8299</p>
+    <p>@Copyright © 2026</p>
+	<a class="cy" href="https://www.lazada.com.ph/#?">Link sa Comment Section</a>
+</section>
+
+<script>
+const menuBtn = document.querySelector('.menu-btn');
+const navlinks = document.querySelector('.nav-links');
+
+menuBtn.addEventListener('click', () => {
+    navlinks.classList.toggle('mobile-menu');
+});
+</script>
+
+</body>
+</html>
